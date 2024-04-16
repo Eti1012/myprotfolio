@@ -1,0 +1,183 @@
+body{
+    margin: 50px 100px;
+    background-color: black;
+    color: white;
+}
+
+.box{
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    width:400px;
+    height:400px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 30px double rgb(230, 153, 227);
+}
+.name_section h1{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+}
+.name_section p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.aboutme h1{
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(231, 191, 117);
+    padding: 10px;
+    margin: 30px;
+    border-radius: 8px;
+}
+.education{
+    background-color: rgb(197, 197, 250);
+    color: black;
+    padding: 10px ;
+    margin: 30px;
+    border-radius: 8px;
+
+}
+.educationdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.education div{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8px;
+    border: 3px double black;
+}
+.fav{
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(231, 191, 117) ;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 8px;
+}
+.ITskill div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 30px;
+    background-color: rgb(235, 229, 221);
+    border-radius: 8px;
+}
+.ITskill div h1{
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: xx-large;
+}
+.ITskill img{
+    padding: 20px;
+}
+.achv h1{
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(231, 191, 117);
+    font-size: 30px;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 8px;
+}
+.achievement-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.achvcard{
+    padding: 10px;
+    margin: 20px;
+    height: 480px;
+    width: 430px;
+    border-radius: 8px;
+    border: 3px solid rgb(231, 191, 117);
+    color: black;
+    background-color: rgb(192, 223, 223);
+}
+.contact h1{
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(231, 191, 117) ;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 8px;
+}
+.github{
+    margin: 30px;
+}
+@media only screen and (max-width:625px){
+    .box{
+         border-radius: 100%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         margin-right: 500px;
+         margin-left: 140px;
+    }
+    .box img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.name_section h1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.name_section p{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+body h3{
+    display: flex;
+    flex-direction: column;
+}
+body{
+        margin: 40px 10px;
+    }
+}
+@media only screen and (max-width:625px){
+    .educationdiv{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    margin: 10px;
+}
+.education div{
+    margin: 10px;
+}
+}
+@media only screen and (max-width:625px){
+ .ITskill div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    margin: 23px;
+
+}
+}
+@media only screen and (max-width:625px){
+    .achievement-card{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        
+}
+.achvcard{
+   display: flex;
+   flex-direction: column;
+   height: 440px;
+   width: 200px;
+   padding: 10px;
+}
+}
